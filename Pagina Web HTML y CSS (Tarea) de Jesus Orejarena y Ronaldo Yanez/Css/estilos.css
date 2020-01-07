@@ -1,0 +1,59 @@
+* {margin: 0px; padding: 0px;}
+
+body {width: 90%; margin: auto;font-family: arial;}
+
+/*header*/
+
+header,nav,.main,aside,footer{width: 100%;}
+
+header{padding: 20px 0px; background: -moz-linear-gradient(left,red,black);background: -webkit-linear-gradient(left,red,black);background: -o-linear-gradient(left,red,black);}
+
+/* nav */
+
+nav{overflow: hidden;background: -moz-linear-gradient(left,red,black);background: -webkit-linear-gradient(left,red,black);background: -o-linear-gradient(left,red,black);}
+
+nav ul {list-style: none;}
+
+nav ul li{float: left;}
+
+nav ul li a{text-decoration: none; display: block; padding: 20px 40px; color : white;}
+
+nav ul li:hover{transition: background 0.5s; border-bottom: 3px solid #0327BA;}
+
+/*main*/
+
+.main{width: 68%; margin-right: 2%; float: left;}
+
+.main2 {width: 100%;}
+
+.main article{background: #E9B634; color: #2A2A2A; padding: 20px; text-align: justify; margin-top: 10px; border-radius: 10px;}
+
+.main2 article{background: #E9B634; color: #2A2A2A; padding: 20px; text-align: justify; margin-top: 10px; border-radius: 10px;}
+
+.zoom:hover{transform: scale(1.05); transition-duration: 1s;}
+
+.center {text-align: center;}
+
+.final {margin-bottom: 10px;}
+
+/* aside */
+
+aside {width: 30%; float: left; padding: 0px 0px 10px 0px;}
+
+aside article{background: #1D1DBB; color: white; padding: 20px 0px; text-align: center; margin-top: 10px; border-radius: 10px;}
+
+/* footer */
+
+footer {clear: both; background: gray; color: black; padding: 25px 0px; text-align: center; margin-top: 10px; border-radius: 10px 10px 0px 0px;}
+
+/* Contenido de paginas */
+
+.justificado {padding-left: 10px}
+
+/*acerca de*/
+
+.cajas {background: white; padding: 30px; border-radius: 5px; display: block; border: 5px solid black;}
+
+/* todo */
+
+h2 {padding: 0px 0px 10px 0px}
